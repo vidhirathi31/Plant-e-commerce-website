@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .head{
+            text-align: center;
+        }
+        .mainLogin{
+            border:1px solid green;
+            margin:10% 25%;
+        }
+        #text{
+            text-align: center;
+        }
+        .info{
+            margin:20px;
+        }
+        .button{
+            text-align: center;
+            margin: 10px;
+        }
+        .email{
+            display: flex;
+            flex-flow: row;
+        }
+        .form-control{
+            width: 100%;
+        }
+        .login{
+            padding: 5px 20px;
+            font-size: 20px;
+            color: white;
+            background-color: green;
+            border: 1px solid green;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .login:hover{
+            background-color: white;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Webname</h1>
+    </div>
+    <div class="mainLogin">
+        <div class="info" id="text">
+            <h1>Login here</h1>
+        </div>
+        <div class="info" id="email">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="info" id="password">
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+        </div>
+        <div class="button">
+            <a href="Home.html"><button class="login">Login</button></a>
+        </div>
+    </div>
+</body>
+</html>

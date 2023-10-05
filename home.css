@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head1 {
+    background-image: url("header.jpeg");
+    height: 250px;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    border-radius: 10px;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(62, 110, 62);
+    border-radius: 5px;
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-contain{
+    display: flex;  
+}
+
+.nav-text-container{
+    margin-right: auto;
+    
+    
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+
+    background-color: black;
+    border-radius: 3px;
+}
+.cart{
+    float: right;
+    
+    position: relative;
+}
+.head2 {
+    text-align: center;
+    color: white;
+}
+
+.head2 h1 {
+    margin: 10px;
+    font-size: 4em;
+}
+
+.header2 p {
+    text-align: center;
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 30px;
+    margin: 40px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 10px 10px rgb(107, 177, 107);
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+}
+.box h3{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.box img{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+}
+.btn {
+    position: sticky;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    background-color: rgb(123, 200, 123);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    margin: 10px;
+    opacity: 0.5;
+    
+}
+
+.images img:hover {
+    opacity: 1;
+}
+
+.end {
+    display: flex;
+    background-color: rgb(182, 224, 182);
+    justify-content: center;
+}
+
+.foot {
+    margin: 20px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot h3 {
+    margin: 15px 0px;
+}
+
+.extraContent {
+    margin: 10px;
+}
+
+.extraContent h3 {
+    font-weight: bold;
+    padding: 30px 0px;
+    font-size: 2em;
+}
+.extraContent p ul{
+    list-style:square;
+}
+
+.plantBox{
+    display:flex;
+    padding: 20px 0px;
+}
+.plantImage{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.plantInfo{
+    padding: 30px;
+    width:50%;
+    float: right;
+    font-size: 1.3rem;
+}
+.SizeButton{
+    padding:10px;
+    margin:10px;
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
+.SizeButton:hover{
+    border: 2px solid rgb(34, 54, 34);
+}
+.PlantSize{
+    display: flex;
+    padding: 20px 0px  ;
+}
+.Planter_Button{
+    padding:10px;
+    margin:10px;
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
+.Planter_Button:hover{
+    border: 2px solid rgb(34, 54, 34);
+}
+.Planter{
+    display: flex;
+    padding: 20px 0px;
+}
+.potColor{
+    display:flex;
+    padding: 20px 0px;
+}
+.Pot_color_button{
+    padding:10px;
+    margin:10px;
+    
+    background-color: white;
+    border: 2px solid green;
+}
+.Pot_color_button:hover{
+    border: 2px solid rgb(34, 54, 34);
+}
+.buttons{
+    display:flex;
+    
+}
+.addtocart button{
+    padding: 10px 40px;
+    margin: 20px 0px;
+    background-color: rgb(80, 169, 80);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.addtocart button:hover{
+    background-color: white;
+    color: rgb(80, 169, 80);
+    border: 1px solid rgb(80, 169, 80);
+}
+.buynow button{
+    padding: 10px 40px;
+    margin: 20px 20px;
+    background-color: rgb(80, 169, 80);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.buynow button:hover{
+    background-color: white;
+    color: rgb(80, 169, 80);
+    border: 1px solid rgb(80, 169, 80);
+}
+.outerCard{
+    display:flex;
+    flex-direction: column;
+    border:2px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+.upperBox{
+    display:flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.infoBox{
+    padding: 20px;
+    ;
+    
+}
+.lowerBox{
+    text-align: center;
+}
